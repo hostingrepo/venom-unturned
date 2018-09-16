@@ -8,7 +8,6 @@ RUN dpkg --add-architecture i386 && \
     apt update && \
     apt upgrade -y && \
     apt-get install screen htop unzip wget
-    dpkg --add-architecture i386
     apt-get update
     apt-get install build-essential gcc-multilib rpm libstdc++6:i386 libgcc1:i386 zlib1g:i386 libncurses5:i386
     apt-get install mono-reference-assemblies-2.0 mono-devel libmono-cil-dev mono-runtime
