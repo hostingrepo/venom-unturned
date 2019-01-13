@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 
 MAINTAINER Edward B, <Edwardebrook@outlook.com>
 
